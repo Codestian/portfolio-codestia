@@ -1,4 +1,4 @@
-# portfolio
+# CodestianCat Portfolio & Blog
 
 ## Project setup
 ```
