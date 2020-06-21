@@ -2,7 +2,10 @@
   <div class="card-main-container" :style="{maxWidth: width}">
     <div class="card-container" :style="{paddingTop: aspect}">
       <div class="card-content" :style="{background: cardColor}">
-        <span class="card-name">intro</span>
+        <div class="card-top">
+          <span class="card-name">intro</span>
+          <font-awesome-icon :icon="['fas', 'user-plus']" />
+        </div>
         <div class="card-slot">
           <slot />
         </div>
@@ -39,15 +42,24 @@ export default {
       flex-direction: column;
       padding: 24px;
 
-      .card-name {
-        text-transform: uppercase;
-        font-family: "Ubuntu Mono", monospace;
-        font-weight: bold;
-        background: black;
-        color: white;
-        padding: 4px 8px;
-        width: max-content;
-        letter-spacing: 1px;
+      .card-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .card-name {
+          text-transform: uppercase;
+          font-family: "Ubuntu Mono", monospace;
+          font-weight: bold;
+          background: black;
+          color: white;
+          padding: 4px 8px;
+          width: max-content;
+          letter-spacing: 1px;
+        }
+
+        svg {
+          font-size: 1.2rem;
+        }
       }
 
       .card-slot {

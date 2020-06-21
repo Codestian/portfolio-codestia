@@ -99,7 +99,7 @@ export default {
   min-height: 600px;
   height: 100%;
   background: linear-gradient(rgba(33, 33, 33, 0.6), rgba(33, 33, 33, 0.6)),
-    url("https://images.unsplash.com/photo-1591563727708-e5a8c6e2b245?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+    url("https://images.unsplash.com/photo-1592191136579-27d0d2d44e86?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1423&q=80");
 
   background-size: cover;
   background-position: 50% 50%;

@@ -1,9 +1,12 @@
 <template>
   <footer>
-    <font-awesome-icon :icon="['fab', 'instagram']" />
-        <font-awesome-icon :icon="['fab', 'linkedin']" />
-    <font-awesome-icon :icon="['fab', 'github']" />
-
+    <a href="https://www.instagram.com/codestiancat/">
+      <font-awesome-icon :icon="['fab', 'instagram']" />
+    </a>
+    <!-- <font-awesome-icon :icon="['fab', 'linkedin']" /> -->
+    <a href="https://github.com/CodestianCat/">
+      <font-awesome-icon :icon="['fab', 'github']" />
+    </a>
   </footer>
 </template>
 
@@ -24,10 +27,10 @@ footer {
   align-items: center;
 
   svg {
-      color: white;
-      font-size: 2rem;
-      margin: 0px 16px;
-      cursor: pointer;
+    color: white;
+    font-size: 2rem;
+    margin: 0px 16px;
+    cursor: pointer;
   }
 }
 </style>
